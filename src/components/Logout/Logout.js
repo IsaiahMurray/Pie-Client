@@ -1,6 +1,7 @@
 import React from 'react';
 import './Logout.css';
 import logoutPic from '../../assets/logoutPic.png';
+//comment
 
 const Logout = () => {
     return(
