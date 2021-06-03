@@ -2,7 +2,6 @@ import React from 'react';
 import './Pie.css';
 
 const DisplayPies = (props) => {
-    console.log(`Props: ${props.pie}`);
 
     return(
         <>
