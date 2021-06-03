@@ -20,6 +20,6 @@ const DisplayPies = (props) => {
                 })
             }
         </>
-    )
+    )  
 }
 export default DisplayPies;
