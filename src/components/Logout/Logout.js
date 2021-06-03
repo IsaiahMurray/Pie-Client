@@ -3,11 +3,13 @@ import './Logout.css';
 import logoutPic from '../../assets/logoutPic.png';
 //comment
 
-const Logout = () => {
+const Logout = (props) => {
     return(
-        <div>
-            <img id="logout" src={logoutPic} alt="powerButton" />
-        </div>
+        <img id="logout" 
+                className="logout" 
+                src={logoutPic} 
+                alt="power button" 
+                onClick={props.clearSession}/>
     )
 }
 
